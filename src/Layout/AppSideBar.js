@@ -1,10 +1,5 @@
 import { Component } from 'react';
-import './App.css';
-
-import './assets/css/layout.css';
-import './assets/css/card.css';
-import Layout from './Layout/Layout'
-class App extends Component {
+class AppSideBar extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -16,11 +11,11 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <Layout />
+      <div className="sidebar">
+        This  is Header
       </div>
     )
   }
 }
 
-export default App;
+export default AppSideBar;

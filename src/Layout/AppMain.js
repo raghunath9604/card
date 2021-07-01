@@ -1,10 +1,6 @@
 import { Component } from 'react';
-import './App.css';
-
-import './assets/css/layout.css';
-import './assets/css/card.css';
-import Layout from './Layout/Layout'
-class App extends Component {
+import Card from './../Component/Card'
+class AppMain extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -16,11 +12,11 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <Layout />
+      <div className="main">
+        <Card />
       </div>
     )
   }
 }
 
-export default App;
+export default AppMain;

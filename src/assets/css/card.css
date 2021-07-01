@@ -1,0 +1,45 @@
+.card {
+  text-align      : center;
+  border          : 1px solid black;
+  background-color: white;
+  width           : 100%;
+  text-align      : left;
+  padding         : 15px 0 18px;
+}
+.s{
+  padding: 10pxs;
+}
+
+.ref {
+  font-size: 14px;
+}
+
+.title {
+  padding-right: 20px;
+  padding-top  : 2px;
+  font-size    : 18px;
+}
+
+.bl {
+  border-left: 1px solid grey;
+}
+
+.subtitle {
+  padding-right : 20px;
+  margin-top    : 11px;
+  padding-bottom: 20px;
+  font-size     : 12px;
+}
+
+.ref-left {
+  width: 50%;
+}
+
+.reference {
+  padding: 0 8px;
+  color  : #555b5b;
+}
+
+.status {
+  padding: 0 8px;
+}

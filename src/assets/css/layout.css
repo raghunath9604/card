@@ -1,0 +1,41 @@
+.app {
+  text-align: left;
+}
+
+.header {
+  width           : 100%;
+  background-color: rgb(136, 130, 130);
+  padding         : 20px 0;
+  text-align      : left;
+  height          : 30px;
+}
+
+.container {
+  display         : flex;
+  background-color: DodgerBlue;
+  height          : calc(100vh - 70px);
+  background-color: #f1f1f1;
+  margin          : 10px;
+  padding         : 20px;
+  font-size       : 30px;
+}
+
+.containers {
+  display: flex;
+}
+
+.flex {
+  flex-grow: 1;
+}
+
+.sidebar {
+  background-color: #4F628E;
+  width           : 20%;
+}
+
+.main {
+  background-color: #7887AB;
+  width           : 80%;
+  flex-grow       : 1;
+  padding         : 10px 20px;
+}

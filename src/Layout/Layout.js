@@ -1,9 +1,7 @@
 import { Component } from 'react';
-import './App.css';
-
-import './assets/css/layout.css';
-import './assets/css/card.css';
-import Layout from './Layout/Layout'
+import AppHeader from './AppHeader';
+import AppSideBar from './AppSideBar';
+import AppMain from './AppMain';
 class App extends Component {
   constructor(props) {
     super(props);
@@ -17,7 +15,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Layout />
+        <AppHeader />
+        <div className="container">
+          <AppSideBar />
+          <AppMain />
+        </div>
       </div>
     )
   }
